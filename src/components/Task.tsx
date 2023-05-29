@@ -1,10 +1,11 @@
 import React from 'react'
 
-// interface Props{
-//   taskName:string;
-//   id: string;
-//   completeTask: string;
-// }
+export interface Todo{
+  todo :string;
+  id: number;
+  completeTask: boolean;
+  //deleteTask: boolean;
+}
 
 // const Task = (props:Props) => {
 //   return (
